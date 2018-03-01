@@ -41,7 +41,7 @@ def gcd(a ,b):
 	#find gcd
 	if b == 0:
 		return a
-	return gcd(bls, (a%b))
+	return gcd(b, (a%b))
 
 
 # Test out the functions
